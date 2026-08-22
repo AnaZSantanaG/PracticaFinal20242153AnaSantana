@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aplicacion Web - Pipeline DevOps</h1>
+    <div id="status">Verificando API...</div>
+    <script>
+        fetch('/api/status')
+            .then(res => res.json())
+            .then(data => document.getElementById('status').innerText = 'Estado API: ' + data.status);
+    </script>
+</body>
+</html>

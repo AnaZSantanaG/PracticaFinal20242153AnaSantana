@@ -1,0 +1,18 @@
+body 
+{ 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin-top: 50px; 
+}
+h1 
+{ 
+    color: #242222; 
+}
+#status 
+{ 
+    margin-top: 20px; 
+    padding: 10px; 
+    background: #e0ffe0; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
